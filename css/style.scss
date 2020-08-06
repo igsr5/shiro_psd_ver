@@ -1,0 +1,25 @@
+// ページの初期設定
+body,
+html {
+    margin: 0;
+    height: 100%;
+    background: #000000;
+}
+
+.row>* {
+    padding: 0;
+}
+
+.container-fluid {
+    height: 100%;
+    max-width: 960px;
+    padding: 0;
+}
+
+// ヘッダー部分
+header {
+    height: 123px;
+    img {
+        height: 35px;
+    }
+}
