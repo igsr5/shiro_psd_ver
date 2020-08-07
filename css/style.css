@@ -243,7 +243,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .c-text {
-  margin: 0 auto;
+  margin: 0 auto 62px;
 }
 
 .c-text p {
@@ -251,6 +251,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   font-family: 小塚ゴシック Pr6N;
   line-height: 1.96;
   letter-spacing: 0.08em;
+}
+
+.c-img {
+  margin-bottom: 95px;
 }
 
 .c-img img {
