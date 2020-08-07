@@ -162,5 +162,19 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .hero {
   position: relative;
+  height: 620px;
+  background-image: url("../img/hero_bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-bg-sub {
+  background-image: url("../img/hero_bh_sub.png");
+  opacity: 0.2;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 620px;
 }
 /*# sourceMappingURL=style.css.map */
