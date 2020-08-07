@@ -1,0 +1,21 @@
+@import "mixin";
+
+.w-item {
+    width: 43.7%;
+
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        font: {
+            size: 30px;
+            family: Poppins;
+        }
+        letter-spacing: 0.02em;
+    }
+
+    p{
+        @include text;
+    }
+}

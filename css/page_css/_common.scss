@@ -1,3 +1,11 @@
+@import "mixin";
+
+.container-fluid {
+    height: 100%;
+    max-width: 960px;
+    padding: 0;
+}
+
 .title {
     h2 {
         text-align: center;
@@ -28,11 +36,6 @@
     text-align: center;
     margin: 0 auto 62px;
     p {
-        font: {
-            size: 16px;
-            family: 小塚ゴシック Pr6N;
-        }
-        line-height: 1.96;
-        letter-spacing: 0.08em;
+        @include text;
     }
 }

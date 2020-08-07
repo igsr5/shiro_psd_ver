@@ -8,12 +8,6 @@ html {
   padding: 0;
 }
 
-.container-fluid {
-  height: 100%;
-  max-width: 960px;
-  padding: 0;
-}
-
 h1,
 h2,
 h3,
@@ -22,6 +16,12 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+.container-fluid {
+  height: 100%;
+  max-width: 960px;
+  padding: 0;
 }
 
 .title {
@@ -262,5 +262,26 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .c-img img {
   width: 100%;
+}
+
+.w-item {
+  width: 43.7%;
+}
+
+.w-item img {
+  width: 100%;
+}
+
+.w-item h3 {
+  font-size: 30px;
+  font-family: Poppins;
+  letter-spacing: 0.02em;
+}
+
+.w-item p {
+  font-size: 16px;
+  font-family: 小塚ゴシック Pr6N;
+  line-height: 1.96;
+  letter-spacing: 0.08em;
 }
 /*# sourceMappingURL=style.css.map */
