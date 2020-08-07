@@ -201,4 +201,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   letter-spacing: 0.04em;
   text-align: center;
 }
+
+.concept {
+  height: 870px;
+  text-align: center;
+}
+
+.c-img img {
+  width: 80%;
+}
 /*# sourceMappingURL=style.css.map */
