@@ -1,0 +1,38 @@
+.title {
+    h2 {
+        text-align: center;
+        position: relative;
+        font: {
+            size: 40px;
+            family: Poppins;
+        }
+        letter-spacing: 0.02em;
+        line-height: 1;
+        padding-bottom: 22px;
+        margin-bottom: 20px;
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            height: 1px;
+            width: 34px;
+            background: #000000;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    margin-top: 120px;
+}
+
+.text {
+    text-align: center;
+    margin: 0 auto 62px;
+    p {
+        font: {
+            size: 16px;
+            family: 小塚ゴシック Pr6N;
+        }
+        line-height: 1.96;
+        letter-spacing: 0.08em;
+    }
+}
