@@ -1,1 +1,159 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body,
+html {
+  margin: 0;
+  height: 200%;
+  background: #000000;
+}
+
+.row > * {
+  padding: 0;
+}
+
+.container-fluid {
+  height: 100%;
+  max-width: 960px;
+  padding: 0;
+}
+
+header {
+  height: 123px;
+}
+
+header img {
+  height: 35px;
+}
+
+.header-content {
+  position: relative;
+}
+
+.navi_menu {
+  height: 23px;
+}
+
+#slide_menu {
+  position: fixed;
+  top: 0;
+  right: -240px;
+  width: 240px;
+  height: 100%;
+  background: #e8e8e8;
+  opacity: 0.9;
+  z-index: 9999;
+}
+
+#slide_menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+#slide_menu li {
+  border-bottom: 1px solid #bfbfbf;
+  padding: 20px 20px;
+  color: #292929;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#slide_menu li:hover {
+  font-size: 17px;
+}
+
+input[type="checkbox"]:checked ~ #sidebarMenu {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+input[type=checkbox] {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: none;
+}
+
+.sidebarIconToggle {
+  margin-bottom: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+  height: 23px;
+  width: 39px;
+}
+
+.spinner {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.horizontal {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 10px;
+}
+
+.diagonal.part-1 {
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+}
+
+.diagonal.part-2 {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 10px;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  opacity: 0;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  margin-top: 8px;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  margin-top: -9px;
+}
+/*# sourceMappingURL=style.css.map */
