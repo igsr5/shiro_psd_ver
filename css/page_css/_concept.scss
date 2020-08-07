@@ -1,10 +1,47 @@
 .concept {
-    height: 870px;
+    // height: 870px;
     text-align: center;
+}
+
+.c-title {
+    h2 {
+        position: relative;
+        font: {
+            size: 40px;
+            family: Poppins;
+        }
+        letter-spacing: 0.02em;
+        line-height: 1;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            height: 1px;
+            width: 34px;
+            background: #000000;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    margin-top: 120px;
+}
+
+.c-text {
+    margin: 0 auto;
+    p {
+        font: {
+            size: 16px;
+            family: 小塚ゴシック Pr6N;
+        }
+        line-height: 1.96;
+        letter-spacing: 0.08em;
+    }
 }
 
 .c-img {
     img {
-        width: 80%;
+        width: 100%;
     }
 }
