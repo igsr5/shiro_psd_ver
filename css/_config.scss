@@ -1,0 +1,15 @@
+// ページの初期設定
+body,
+html {
+    margin: 0;
+}
+
+.row>* {
+    padding: 0;
+}
+
+.container-fluid {
+    height: 100%;
+    max-width: 960px;
+    padding: 0;
+}
