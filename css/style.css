@@ -214,6 +214,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .concept {
   text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(70%, #ffffff), color-stop(70%, #ededed), to(#ededed));
+  background: linear-gradient(#ffffff 0%, #ffffff 70%, #ededed 70%, #ededed 100%);
 }
 
 .c-title {
@@ -254,7 +256,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .c-img {
-  margin-bottom: 95px;
+  padding-bottom: 95px;
 }
 
 .c-img img {
