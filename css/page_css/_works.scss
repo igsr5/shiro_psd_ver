@@ -14,12 +14,7 @@
         width: 100%;
     }
     h3 {
-        font: {
-            size: 30px;
-            family: Poppins;
-        }
-        letter-spacing: 0.02em;
-        margin: 24px 0 15px;
+        @include title;
     }
     p {
         @include text;

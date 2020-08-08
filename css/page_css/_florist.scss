@@ -1,0 +1,23 @@
+@import "../page_css/mixin";
+.florist {
+    background: linear-gradient(#ededed 0%, #ededed 55%, #ffffff 55%, #ffffff 100%);
+    margin: 120px 0 30px;
+}
+
+.f-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-item {
+    width: 31.25%;
+    img {
+        width: 100%;
+    }
+    h3 {
+        @include title;
+    }
+    p {
+        @include text;
+    }
+}
