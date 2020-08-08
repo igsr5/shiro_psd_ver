@@ -21,11 +21,12 @@ p {
 .container-fluid {
   height: 100%;
   max-width: 960px;
+  width: 75%;
   padding: 0;
 }
 
 .title {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 
 .title h2 {
@@ -292,7 +293,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   font-size: 30px;
   font-family: Poppins;
   letter-spacing: 0.02em;
-  margin: 24px 0 15px;
+  margin: 20px 0 13px;
 }
 
 .w-item p {
@@ -308,5 +309,42 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .w-item:nth-child(2), .w-item:nth-child(4) {
   margin-top: 120px;
+}
+
+.florist {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ededed), color-stop(55%, #ededed), color-stop(55%, #ffffff), to(#ffffff));
+  background: linear-gradient(#ededed 0%, #ededed 55%, #ffffff 55%, #ffffff 100%);
+  margin: 120px 0 30px;
+}
+
+.f-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.f-item {
+  width: 31.25%;
+}
+
+.f-item img {
+  width: 100%;
+}
+
+.f-item h3 {
+  font-size: 30px;
+  font-family: Poppins;
+  letter-spacing: 0.02em;
+  margin: 20px 0 13px;
+}
+
+.f-item p {
+  font-size: 16px;
+  font-family: 小塚ゴシック Pr6N;
+  line-height: 1.96;
+  letter-spacing: 0.08em;
 }
 /*# sourceMappingURL=style.css.map */
