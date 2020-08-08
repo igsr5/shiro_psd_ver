@@ -10,6 +10,8 @@
         "page_css/_hero.scss",
         "page_css/_concept.scss",
         "page_css/_works.scss",
+        "page_css/_mixin.scss",
+        "page_css/_florist.scss",
         "page_css/_mixin.scss"
     ],
     "names": [],
