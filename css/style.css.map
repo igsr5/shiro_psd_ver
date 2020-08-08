@@ -12,7 +12,8 @@
         "page_css/_works.scss",
         "page_css/_mixin.scss",
         "page_css/_florist.scss",
-        "page_css/_mixin.scss"
+        "page_css/_mixin.scss",
+        "page_css/_info.scss"
     ],
     "names": [],
     "file": "style.css"
