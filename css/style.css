@@ -347,4 +347,50 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   line-height: 1.96;
   letter-spacing: 0.08em;
 }
+
+.info {
+  margin-bottom: 180px;
+}
+
+.i-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.i-box img {
+  width: 52%;
+  height: auto;
+}
+
+.i-text {
+  width: 43.75%;
+}
+
+.i-topic {
+  padding-right: 30px;
+  font-size: 16px;
+  font-family: 小塚ゴシック Pr6N;
+}
+
+.i-ctt {
+  font-size: 16px;
+  font-family: 小塚ゴシック Pr6N;
+}
+
+.i-ctt p {
+  margin-bottom: 23px;
+  padding-left: 30px;
+  border-left: 1px solid #b3b3b3;
+}
+
+.i-ctt .i-ctt-last {
+  margin-bottom: 0;
+}
 /*# sourceMappingURL=style.css.map */

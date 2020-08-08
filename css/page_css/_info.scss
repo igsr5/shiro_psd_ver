@@ -1,0 +1,40 @@
+.info {
+    margin-bottom: 180px;
+}
+
+.i-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 52%;
+        height: auto;
+    }
+}
+
+.i-text {
+    width: 43.75%;
+}
+
+.i-topic {
+    padding-right: 30px;
+    font: {
+        size: 16px;
+        family: 小塚ゴシック Pr6N;
+    }
+}
+
+.i-ctt {
+    font: {
+        size: 16px;
+        family: 小塚ゴシック Pr6N;
+    }
+    p {
+        margin-bottom: 23px;
+        padding-left: 30px;
+        border-left: 1px solid #b3b3b3;
+    }
+    .i-ctt-last {
+        margin-bottom: 0;
+    }
+}
