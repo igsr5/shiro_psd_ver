@@ -13,7 +13,8 @@
         "page_css/_mixin.scss",
         "page_css/_florist.scss",
         "page_css/_mixin.scss",
-        "page_css/_info.scss"
+        "page_css/_info.scss",
+        "page_css/_contact.scss"
     ],
     "names": [],
     "file": "style.css"
