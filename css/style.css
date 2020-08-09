@@ -444,4 +444,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .c-btn img {
   margin-right: 20px;
 }
+
+footer {
+  text-align: center;
+  font-family: 小塚ゴシック Pr6N;
+  line-height: 1.96;
+  letter-spacing: 0.08em;
+  padding: 32px 0;
+}
 /*# sourceMappingURL=style.css.map */
